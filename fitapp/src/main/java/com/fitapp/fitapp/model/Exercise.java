@@ -1,7 +1,6 @@
 package com.fitapp.fitapp.model;
 import java.io.Serializable;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -13,21 +12,20 @@ public class Exercise implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, updatable = false)
-    private int id;
+    private Long id;
     private String name;
     private String description;
 
-    public Exercise(int id, String name, String description) {
-        this.id = id;
+    public Exercise(String name, String description) {
         this.name = name;
         this.description = description;
     }
 
-    public int getId() {
+    public Long getId() {
         return this.id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
