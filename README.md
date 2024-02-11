@@ -3,9 +3,8 @@
 The goal of this repository is to create a fitness web app using the following stack :
 -   Bootstrap
 -   Angular 
--   PostgreSQL
+-   MySQL
 -   Spring-boot
--   Firebase
 
 It will implement the following features :
 -   Show multiple exercises for each muscle group.
