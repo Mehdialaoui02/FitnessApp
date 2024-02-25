@@ -14,3 +14,7 @@ It will implement the following features :
 Current progress :
 - The V0 of the backend is finished and has been tested locally using Postman
 - The front-end is still in progress
+
+Website design :
+
+<img src="Style of the website.png">
